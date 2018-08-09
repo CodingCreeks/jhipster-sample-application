@@ -1,0 +1,16 @@
+/**
+ * The Employee entity.
+ */
+entity User {
+	/**
+	* The firstname attribute.
+	*/
+	firstName String,
+    middleName String,
+	lastName String,
+	email String,
+	phoneNumber String,
+	activatedDate Instant,
+    endDate Instant
+}
+
